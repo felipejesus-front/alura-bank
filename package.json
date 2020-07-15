@@ -7,7 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/felipejesus-front/alura-bank/issues"
   },
-  "homepage": "https://github.com/felipejesus-front/alura-bank#readme"
+  "homepage": "https://github.com/felipejesus-front/alura-bank#readme",
+  "devDependencies": {
+    "typescript": "^2.3.2"
+  }
 }
