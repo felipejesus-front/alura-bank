@@ -5,7 +5,7 @@ class NegociacaoController {
         this._inputValor = document.querySelector('#valor');
     }
     adiciona(event) {
-        event.preventDefaut();
+        event.preventDefault();
         const negociacao = new Negociacao(this._inputData.value, this._inputQuantidade.value, this._inputValor.value);
         console.log(negociacao);
     }
