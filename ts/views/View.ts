@@ -1,10 +1,10 @@
-abstract class View<T>{
+export abstract class View<T>{
 
     private _elemento: JQuery;
 
     constructor(seletor:string){
-        this._elemento = $(seletor)
 
+        this._elemento = $(seletor)
     }
     
     update(model:T) {
@@ -14,3 +14,4 @@ abstract class View<T>{
     
     abstract template(model:T): string;
 }
+
